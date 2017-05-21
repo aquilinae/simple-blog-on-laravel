@@ -7,6 +7,10 @@
   </head>
   <body>
     <div class="container">
+      <ul class="nav nav-pills" >
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/posts/create">Create New Posts</a></li>
+      </ul>
       @yield('content')
     </div>
   </body>
