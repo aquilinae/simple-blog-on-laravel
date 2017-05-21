@@ -1,3 +1,4 @@
 [Sun May 21 17:26:29.181124 2017] [:error] [pid 3556:tid 1672] [client 127.0.0.1:57009] PHP Parse error:  syntax error, unexpected ';' in C:\\xampp\\htdocs\\laravel5blog.dev\\storage\\framework\\views\\43f7f522ce20c1bd799266fb2414e829370a31d3.php on line 24
 [Sun May 21 17:29:09.697733 2017] [:error] [pid 3556:tid 1672] [client 127.0.0.1:57016] PHP Parse error:  syntax error, unexpected ';' in C:\\xampp\\htdocs\\laravel5blog.dev\\storage\\framework\\views\\43f7f522ce20c1bd799266fb2414e829370a31d3.php on line 28
 [Sun May 21 17:40:29.468100 2017] [:error] [pid 3556:tid 1672] [client 127.0.0.1:57060] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\\xampp\\htdocs\\laravel5blog.dev\\app\\Http\\Controllers\\PostsController.php on line 19
+[Sun May 21 17:58:40.765788 2017] [:error] [pid 2716:tid 1676] [client 127.0.0.1:57384] PHP Parse error:  syntax error, unexpected '}' in C:\\xampp\\htdocs\\laravel5blog.dev\\routes\\web.php on line 20
