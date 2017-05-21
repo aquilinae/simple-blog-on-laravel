@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*
+Это должно быть внутри middleware,
+но с недавнего времени routes.php разбит на несколько файлов,
+поэтому пока положу сюда
+Подробнее: https://youtu.be/PGODmKkyrwM?list=PLZU0qJlzY07VUuIShxnB49egpAxbmKY-c
+с 1:13
+*/
+Route::resource('posts', 'PostsController');
