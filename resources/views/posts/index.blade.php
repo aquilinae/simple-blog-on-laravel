@@ -7,12 +7,18 @@
       <th>
         Title
       </th>
+      <th>
+        &nbsp;
+      </th>
     </tr>
 
       @foreach($posts as $post)
         <tr>
           <td>
-            {{$post->title}}
+            {{$post->title}}            
+          </td>
+          <td>
+            {{ link_to_route('posts.edit', 'Edit', array($post->id)) }}
           </td>
         </tr>
       @endforeach

@@ -64,7 +64,10 @@ class PostsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Post::find($id);
+        //compact('post');
+        //array('post' => $post);
+        return view('posts.edit', compact('post'));
     }
 
     /**
@@ -76,7 +79,10 @@ class PostsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $data = $request->only('title', 'body');
+        $post = Post::find($id);
+        $post->update($data);
+        return \Redirect::route('posts.edit', $id);
     }
 
     /**
